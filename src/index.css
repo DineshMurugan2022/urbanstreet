@@ -1,0 +1,86 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --bg-primary: #F5F2EA;
+    --text-primary: #0B0B0D;
+    --bg-card: #FFFFFF;
+    --bg-surface: #EDE8DE;
+    --text-muted: #7A7C82;
+    --border-main: #D9D6CE;
+    --accent-electric: #1765F5;
+    --accent-electric-hover: #0E53D6;
+    --accent-signal: #FF4800;
+    --primary-black: #0B0B0D;
+    --charcoal: #191A1D;
+  }
+
+  .dark {
+    --bg-primary: #0B0B0D;
+    --text-primary: #F5F2EA;
+    --bg-card: #191A1D;
+    --bg-surface: #141416;
+    --text-muted: #92949A;
+    --border-main: #2A2C33;
+    --accent-electric: #1765F5;
+    --accent-electric-hover: #3B82F6;
+    --accent-signal: #FF5500;
+    --primary-black: #0B0B0D;
+    --charcoal: #191A1D;
+  }
+
+  body {
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-headline {
+  font-family: 'Bebas Neue', 'Oswald', sans-serif;
+  letter-spacing: 0.02em;
+}
+
+.font-display {
+  font-family: 'Oswald', 'Bebas Neue', sans-serif;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.font-marker {
+  font-family: 'Permanent Marker', cursive;
+}
+
+.font-body {
+  font-family: 'Inter', -apple-system, sans-serif;
+}
+
+.font-mono-numbers {
+  font-family: 'JetBrains Mono', monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(100, 116, 139, 0.25);
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(100, 116, 139, 0.45);
+}
+
+/* Hide scrollbar for carousel & slide tracks */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

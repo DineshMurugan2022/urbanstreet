@@ -1,0 +1,121 @@
+import { ProductReview } from '../types';
+
+export const INITIAL_REVIEWS: ProductReview[] = [
+  {
+    id: 'rev-01',
+    productId: 'prod-01',
+    userId: 'user-01',
+    userName: 'Karthik Raja',
+    userEmail: 'karthik.raja@gmail.com',
+    userCity: 'Chennai, TN',
+    rating: 5,
+    comment: 'The 420 GSM weight on this hoodie is surreal! Thick, structured, and has that high-end Balenciaga / Yeezy drape. Handled the Chennai night breeze effortlessly. Tiruppur cotton quality is truly unmatched.',
+    createdAt: '20 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 18
+  },
+  {
+    id: 'rev-02',
+    productId: 'prod-01',
+    userId: 'user-02',
+    userName: 'Sneha Venkatesh',
+    userEmail: 'sneha.v@yahoo.com',
+    userCity: 'Coimbatore, TN',
+    rating: 5,
+    comment: 'Ordered Size M for an oversized boyfriend fit. The dual-layer hood actually stays upright and doesn’t flop back. Shipped to Coimbatore in just 24 hours via BlueDart!',
+    createdAt: '18 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 9
+  },
+  {
+    id: 'rev-03',
+    productId: 'prod-01',
+    userId: 'user-03',
+    userName: 'Aravind Swaminathan',
+    userEmail: 'aravind.s@outlook.com',
+    userCity: 'Madurai, TN',
+    rating: 4,
+    comment: 'Solid heavyweight feel. The cuffs have tight elastic ribbing that stays at the wrist. Would love to see more pastel earth colors in the next drop.',
+    createdAt: '14 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 5
+  },
+  {
+    id: 'rev-04',
+    productId: 'prod-02',
+    userId: 'user-04',
+    userName: 'Dinesh Murugan',
+    userEmail: '2002dineshmurugan@gmail.com',
+    userCity: 'Chennai, TN',
+    rating: 5,
+    comment: 'Best 260 GSM boxy tee in Tamil Nadu. The collar ribbing is thick and doesn’t bacon or wrinkle after multiple machine washes. Absolute daily staple for Anna Nagar strolls.',
+    createdAt: '21 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 14
+  },
+  {
+    id: 'rev-05',
+    productId: 'prod-02',
+    userId: 'user-05',
+    userName: 'Praveen Kumar',
+    userEmail: 'praveen.k99@gmail.com',
+    userCity: 'Salem, TN',
+    rating: 5,
+    comment: 'Pure comfort. Boxy cut with wide sleeves that hit right around the elbow. Will buy in charcoal next.',
+    createdAt: '17 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 7
+  },
+  {
+    id: 'rev-06',
+    productId: 'prod-03',
+    userId: 'user-06',
+    userName: 'Vigneshwaran M.',
+    userEmail: 'vignesh.m@gmail.com',
+    userCity: 'Tiruchirappalli, TN',
+    rating: 5,
+    comment: 'Screen printing quality is top-notch. Puff print texture has clean dimensional edges and hasn’t cracked. Madras typography on the back turns heads in college.',
+    createdAt: '19 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 11
+  },
+  {
+    id: 'rev-07',
+    productId: 'prod-04',
+    userId: 'user-07',
+    userName: 'Surya Narayanan',
+    userEmail: 'surya.n@gmail.com',
+    userCity: 'Tiruppur, TN',
+    rating: 5,
+    comment: 'As someone from Tiruppur working in textiles, I can confirm this twill fabric is legitimate 320 GSM ring-spun weave. Hardware buckles and YKK zips feel ultra heavy-duty.',
+    createdAt: '16 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 23
+  },
+  {
+    id: 'rev-08',
+    productId: 'prod-05',
+    userId: 'user-08',
+    userName: 'Meera Krishnan',
+    userEmail: 'meera.krish@gmail.com',
+    userCity: 'Chennai, TN',
+    rating: 4,
+    comment: 'Denim wash looks exactly like vintage Japanese raw selvedge. Wide-leg silhouette sits perfectly over high-top sneakers. Length was spot on for my height.',
+    createdAt: '15 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 6
+  },
+  {
+    id: 'rev-09',
+    productId: 'prod-06',
+    userId: 'user-09',
+    userName: 'Santhosh Balaji',
+    userEmail: 'santhosh.b@gmail.com',
+    userCity: 'Erode, TN',
+    rating: 5,
+    comment: 'The corduroy ridges are thick and plush. Perfect layering piece over a plain white oversized tee. The matte metal snaps close with a solid click.',
+    createdAt: '12 Oct 2026',
+    verifiedPurchase: true,
+    helpfulVotes: 8
+  }
+];

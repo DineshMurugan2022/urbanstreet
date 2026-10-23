@@ -1,0 +1,6 @@
+{
+  "name": "URBAN STREET — Tamil Nadu Fashion & Streetwear",
+  "description": "Premium contemporary Indian streetwear and fashion platform tailored for Tamil Nadu. Features interactive editorial slide lookbook, real garment photography, seamless UPI & card checkout, live real-time order tracking, and an admin inventory suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
